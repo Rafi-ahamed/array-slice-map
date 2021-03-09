@@ -23,14 +23,13 @@ func main( ){
  //slice syntax:
 
  //x:= make([]string,0)
-//var fruits[] string
-//fruits=append(fruits,"banana","mango")
+var fruits[] string
+fruits=append(fruits,"banana","mango")
  //fmt.Println(fruits)
 //fmt.Println(len(fruits))
  //fmt.Printf("%T\n",fruits)
  //fmt.Printf("%T",students)
 
-//a:=reflect.Typeof(fruits).Kind().string()
-// fmt.Println(a)
-
+a:=reflect.TypeOf(fruits).kind().String()
+ fmt.Println(a)
 }
